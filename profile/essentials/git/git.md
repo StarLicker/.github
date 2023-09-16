@@ -131,12 +131,12 @@ HEAD is now at d43b07b initial draft
 hello world
 ```
 
-The above output omits a big message saying that you are no longer looking at the latest version, but the important thing is that you can see that we are now looking at our old version. Note that you don't want to make commits at this point since it will create a branch that is not for the latest code. To get back to the top of the version chain, use the `checkout` command and reference the branch name, which is by default `master`.
+The above output omits a big message saying that you are no longer looking at the latest version, but the important thing is that you can see that we are now looking at our old version. Note that you don't want to make commits at this point since it will create a branch that is not for the latest code. To get back to the top of the version chain, use the `checkout` command and reference the branch name, which is by default `main`.
 
 ```sh
 ➜  git checkout master
 Previous HEAD position was d43b07b initial draft
-Switched to branch 'master'
+Switched to branch 'main'
 
 ➜  cat hello.txt
 goodbye world
